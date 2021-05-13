@@ -30,4 +30,9 @@ sudo chmod 777 setup.sh
 ./setup.sh
 ```
 
-- The setup should take a while, but once it is completed, everything should be installed.
+- The setup should take a while, but once it is completed, everything should be installed. You can connect to the torrent web client using your brower and http://piIPaddress:8080 and the management panel at http://piIPaddress/. To find out the piIPaddress, write `hostname -I` in the Raspberry Pi's terminal to get the IP address assigned to it.
+
+- Login to torrent web client at http://piIPaddress:8080. The default credentials are:
+username: admin
+password: adminadmin
+- Once logged in, go to Tools -> Options. Under the Downloads tab, change the `Default Save Path` to `/media/hdd/videos`.
