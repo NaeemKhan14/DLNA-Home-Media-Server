@@ -1,11 +1,11 @@
 # Introduction
-This project creates a DLNA server on Raspberry Pi through which any DLNA capable device - such as a smart TV - can stream media through. It uses a torrent client to download video files directly to an external drive connected to Raspberry Pi. It is capable of downloading files while media is begin streamed on a single device, and users can manage their data using the provided web interface to delete uncessary files.
+This project creates a DLNA server on Raspberry Pi through which any DLNA capable device - such as a smart TV - can stream media through. It uses a torrent client to download video files directly to an external drive connected to Raspberry Pi. It is capable of downloading files while media is begin streamed on a single device, and users can manage their data using the provided web interface to delete unnecessary files.
 
 # Requirements
 - Raspberry Pi 3 or newer.
 - Rasbian Lite (the program has been tested on headless version of Raspbian only).
 - A USB flash drive (NTFS Formatted).
-- Wired connection through ethernet is recommended.
+- Wired internet connection is recommended.
 
 # Prerequisites
 - Make sure you have Raspbian Lite installed and SSH enabled on it. [Here is a good tutorial](https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/) if you are new to this.
