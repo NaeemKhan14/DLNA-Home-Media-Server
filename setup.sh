@@ -50,6 +50,7 @@ for pkg in $packages; do
                         sudo ufw allow OpenSSH
                         sudo ufw allow 'WWW Full'
                         sudo ufw allow 8200
+                        sudo ufw allow 8080
                         yes y | sudo ufw enable
                 fi
         fi
@@ -183,6 +184,7 @@ sudo systemctl start qbittorrent
 if [ -f "/var/www/html/index.nginx-debian.html" ];
 then
         sudo rm /var/www/html/index.nginx-debian.html
+        sudo rm /var/www/html/index.html
 fi
 
 echo "Copying web interface files to local server's directory."
