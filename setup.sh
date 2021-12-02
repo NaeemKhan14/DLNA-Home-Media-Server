@@ -189,3 +189,8 @@ fi
 
 echo "Copying web interface files to local server's directory."
 sudo cp ./index.php /var/www/html
+
+echo "Removing default apache2 files from webserver."
+sudo rm /var/www/html/index.html
+
+echo "Setup completed!."
