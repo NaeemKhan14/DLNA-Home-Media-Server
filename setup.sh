@@ -11,7 +11,7 @@
 ######################################################################
 
 # Get the external NTFS drive's UUID.
-diskUUID=$(blkid -t TYPE=ntfs -sUUID | cut -d'"' -f2)
+diskUUID=$(sudo blkid -t TYPE=ntfs -sUUID | cut -d'"' -f2)
 
 if [ -z "$diskUUID" ];
 then
